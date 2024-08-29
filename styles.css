@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #b9fbc0); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333333; /* Dark gray text */
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    color: #555555; /* Medium gray text */
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Search Section Styles */
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:active {
+    background-color: #004494; /* Even darker blue */
+    transform: scale(0.98); /* Slightly shrink on click */
+}
+
+/* Recipes Section Styles */
+#recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recipes p {
+    font-size: 1.2rem;
+    color: #555555; /* Medium gray text */
+}
+
+.recipe {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.recipe:hover {
+    background-color: #e9ecef; /* Slightly darker gray on hover */
+    transform: scale(1.02); /* Slight zoom effect */
+}
+
+.recipe h3 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    color: #333333; /* Dark gray text */
+    font-weight: bold;
+}
+
+.recipe p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666666; /* Medium gray text */
+}
+
+.recipe p strong {
+    color: #007bff; /* Blue color for labels */
+}
